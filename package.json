@@ -1,0 +1,12 @@
+{
+  "name": "ultron",
+  "version": "1.0.0",
+  "description": "Voice-driven OSINT & digital forensics console with per-operation authorization",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

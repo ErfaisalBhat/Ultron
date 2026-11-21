@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Secrets and local settings — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+
+# Evidence / analysed files and output
+evidence/
+uploads/
+reports/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
